@@ -1,52 +1,159 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>IPS Mediplus Laboral</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body { margin:0; font-family: Arial, sans-serif; background:#f4f6f9; color:#333;}
-    header { background:#0a2540; color:white; padding:80px 20px; text-align:center;}
-    h1 { margin:0 0 10px;}
-    .btn { background:#0070f3; color:white; padding:12px 20px; text-decoration:none; border-radius:5px;}
-    .container { max-width:1100px; margin:auto; padding:40px 20px;}
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;}
-    .card { background:white; padding:20px; border-radius:10px; box-shadow:0 5px 15px rgba(0,0,0,0.05);}
-    footer { text-align:center; padding:30px; background:#0a2540; color:white;}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPS Mediplus Laboral</title>
+
+<style>
+body {
+  margin:0;
+  font-family: 'Segoe UI', sans-serif;
+  background:#f4f6f9;
+  color:#1a1a1a;
+}
+
+header {
+  background: linear-gradient(135deg, #0a2540, #163d6b);
+  color:white;
+  padding:100px 20px;
+  text-align:center;
+}
+
+header h1 {
+  font-size:36px;
+  margin-bottom:10px;
+}
+
+header p {
+  font-size:18px;
+  opacity:0.9;
+}
+
+.btn {
+  display:inline-block;
+  margin-top:20px;
+  padding:14px 25px;
+  background:#0070f3;
+  color:white;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+.btn:hover {
+  background:#0059c1;
+}
+
+.container {
+  max-width:1100px;
+  margin:auto;
+  padding:60px 20px;
+}
+
+.section-title {
+  text-align:center;
+  margin-bottom:40px;
+}
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:25px;
+}
+
+.card {
+  background:white;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.05);
+  transition:0.3s;
+}
+
+.card:hover {
+  transform:translateY(-5px);
+}
+
+.card h3 {
+  margin-bottom:10px;
+  color:#0a2540;
+}
+
+.highlight {
+  background:#0a2540;
+  color:white;
+  padding:60px 20px;
+  text-align:center;
+}
+
+footer {
+  background:#0a2540;
+  color:white;
+  text-align:center;
+  padding:30px;
+}
+</style>
+
 </head>
 <body>
 
 <header>
   <h1>Consultoría en Salud Laboral y SG-SST</h1>
-  <p>Reducimos riesgos médicos y legales en tu empresa</p>
-  <br>
+  <p>Reducimos riesgos médicos, legales y operativos en tu empresa</p>
   <a class="btn" href="https://wa.me/573XXXXXXXXX">Solicitar asesoría</a>
 </header>
 
 <div class="container">
-  <h2>Servicios</h2>
+  <div class="section-title">
+    <h2>Servicios</h2>
+    <p>Soluciones especializadas para empresas</p>
+  </div>
+
   <div class="grid">
     <div class="card">
       <h3>Consultoría Médica Laboral</h3>
-      <p>Análisis de casos, reintegros y conceptos ocupacionales.</p>
+      <p>Análisis de casos, reintegros, conceptos ocupacionales y apoyo técnico.</p>
     </div>
+
     <div class="card">
       <h3>SG-SST</h3>
-      <p>Implementación, mantenimiento y auditoría.</p>
+      <p>Implementación, mantenimiento, auditoría y cumplimiento normativo.</p>
     </div>
+
     <div class="card">
       <h3>Evaluación de Riesgos</h3>
-      <p>IPT, APT y valoración de puestos de trabajo.</p>
+      <p>IPT, APT y valoración de condiciones de trabajo.</p>
     </div>
+
     <div class="card">
       <h3>Riesgo Psicosocial</h3>
-      <p>Batería, análisis e intervención.</p>
+      <p>Aplicación de batería, análisis y planes de intervención.</p>
     </div>
+
     <div class="card">
       <h3>Capacitaciones</h3>
-      <p>Primeros auxilios, brigadas y prevención.</p>
+      <p>Primeros auxilios, brigadas, prevención y formación empresarial.</p>
     </div>
+  </div>
+</div>
+
+<div class="highlight">
+  <h2>¿Por qué elegirnos?</h2>
+  <p>Enfocados en soluciones prácticas, cumplimiento legal y reducción de riesgos para tu empresa.</p>
+</div>
+
+<div class="container">
+  <div class="section-title">
+    <h2>Contáctanos</h2>
+  </div>
+
+  <p style="text-align:center;">
+    Agenda una asesoría y recibe una propuesta personalizada en menos de 24 horas.
+  </p>
+
+  <div style="text-align:center;">
+    <a class="btn" href="https://wa.me/573007777005">Hablar por WhatsApp</a>
   </div>
 </div>
 
