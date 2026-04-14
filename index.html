@@ -6,6 +6,10 @@
 <title>IPS Mediplus Laboral</title>
 
 <style>
+
+  html {
+  scroll-behavior: smooth;
+}
 body {
   margin:0;
   font-family: 'Segoe UI', sans-serif;
@@ -99,13 +103,25 @@ footer {
 <body>
 
 <header>
-  <img src="logopng.png" alt="IPS Mediplus Laboral" style="width:120px; margin-bottom:20px;">
-  <h1>Consultoría en Salud Laboral y SG-SST</h1>
-  <p>Reducimos riesgos médicos, legales y operativos en tu empresa</p>
-  <a class="btn" href="https://wa.me/573XXXXXXXXX">Solicitar asesoría</a>
+
+  <nav style="position:fixed; top:0; width:100%; background:#0a2540; padding:15px 20px; display:flex; justify-content:space-between; align-items:center; z-index:1000;">
+    <img src="logopng.png" style="width:90px;">
+    <div>
+      <a href="#inicio" style="color:white; margin:0 10px; text-decoration:none;">Inicio</a>
+      <a href="#servicios" style="color:white; margin:0 10px; text-decoration:none;">Servicios</a>
+      <a href="#contacto" style="color:white; margin:0 10px; text-decoration:none;">Contacto</a>
+    </div>
+  </nav>
+
+  <div id="inicio" style="padding-top:80px;">
+    <h1>Consultoría en Salud Laboral y SG-SST</h1>
+    <p>Reducimos riesgos médicos, legales y operativos en tu empresa</p>
+    <a class="btn" href="https://wa.me/573007777005">Solicitar asesoría</a>
+  </div>
+
 </header>
 
-<div class="container">
+<div id="servicios" class="container">
   <div class="section-title">
     <h2>Servicios</h2>
     <p>Soluciones especializadas para empresas</p>
@@ -144,7 +160,7 @@ footer {
   <p>Enfocados en soluciones prácticas, cumplimiento legal y reducción de riesgos para tu empresa.</p>
 </div>
 
-<div class="container">
+<div id="contacto" class="container">
   <div class="section-title">
     <h2>Contáctanos</h2>
   </div>
@@ -158,6 +174,29 @@ footer {
   </div>
 </div>
 
+<div class="container">
+  <div class="section-title">
+    <h2>Experiencia y respaldo</h2>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>+ Empresas atendidas</h3>
+      <p>Apoyamos organizaciones en la gestión de riesgos laborales y cumplimiento normativo.</p>
+    </div>
+
+    <div class="card">
+      <h3>Gestión de casos médicos</h3>
+      <p>Experiencia en análisis, reintegros y recomendaciones laborales.</p>
+    </div>
+
+    <div class="card">
+      <h3>Enfoque práctico</h3>
+      <p>No solo cumplimos la norma, implementamos soluciones reales para tu empresa.</p>
+    </div>
+  </div>
+</div>
+  
 <footer>
   <p>IPS Mediplus Laboral - Bogotá</p>
 </footer>
